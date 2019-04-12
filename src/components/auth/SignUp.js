@@ -28,7 +28,7 @@ class SignUp extends Component {
     }
 
     return (
-      <div className="container">
+      <div className="container" id="signup">
         <form className="white" onSubmit={this.handleSubmit}>
           <h5 className="grey-text text-darken-3">Sign Up</h5>
           <div className="input-field">
@@ -51,7 +51,7 @@ class SignUp extends Component {
             <div className="red-text center">
               { authError ? <p>{ authError }</p> : null }
             </div>
-            <button className="btn pink lighten-1 z-depth-0">Sign Up</button>
+            <button className="btn blue lighten-1 z-depth-0">Sign Up</button>
             
           </div>
         </form>
